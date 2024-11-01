@@ -4,7 +4,8 @@
 **/
 struct HLD {
     int n; // 树中的节点数
-    std::vector<int> siz, top, dep, parent, in, out, seq; // 存储节点的大小、所在重链的顶部节点、深度、父节点、进入和离开时间、序列编号
+    std::vector<int> siz, top, dep, parent, in, out, seq; 
+// 存储节点的大小、所在重链的顶部节点、深度、父节点、进入和离开时间、序列编号
     std::vector<std::vector<int>> adj; // 邻接表，存储树的结构
     int cur; // 用于记录序列编号的当前值
 
